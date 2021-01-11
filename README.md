@@ -20,4 +20,8 @@ Por ultimo pasamos los datos de un indice a otro.
 
 #### Creamos el mapa
 
-<img src="/main/mapa.png" width="1000"/>
+<img src="https://github.com/lggx/Nifi-ELK/blob/main/mapa.png" width="1000"/>
+
+Tambien podemos extraer mas informacion de estos datos.
+
+<img src="https://github.com/lggx/Nifi-ELK/blob/main/dashboard.png" width="1000"/>
