@@ -29,18 +29,7 @@ services:
     environment:
       - discovery.type=single-node
       
-  # Logstash: Elastic ingestion tool
-  logstash:
-    image: 'logstash:7.3.0'
-    hostname: logstash
-    container_name: logstash
-    ports:
-      - 9600:9600
-    volumes:
-      - ./data:/tmp/datasets
-      - ./config/pipelines.yml:/usr/share/logstash/config/pipelines.yml
-    depends_on:
-      - elasticsearch
+  
       
   # FileBeat: Elastic ingestion tool
   filebeat:
